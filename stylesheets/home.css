@@ -15,14 +15,86 @@
 .knife {
   float: left;
   width: 40%;
+  position: relative;
 }
   
-.knife img {
+.knife-img {
   width: 125%;
   height: auto;
   margin-left: -11%;
 }
-  
+
+.circle {
+  position: absolute;
+  width: 8%;
+  height: auto;
+}
+
+.bubble {
+  position: absolute;
+  height: auto;
+}
+
+.circle-C-1 {
+  bottom: 35%;
+  left: -1.5%;
+}
+
+.circle-C-2 {
+  top: 29.5%;
+  left: 24%;
+}
+
+.circle-C-3 {
+  top: 17%;
+  left: 55.5%;
+}
+
+.circle-C-4 {
+  top: 13%;
+  right: 7%;
+}
+
+.circle-C-5 {
+  bottom: 47%;
+  right: 4.5%;
+}
+
+.circle-S-1 {
+  top: 40%;
+  left: 10.5%;
+}
+
+.circle-S-2 {
+  bottom: 14%;
+  left: 61%;
+}
+
+.circle-S-3 {
+  top: 27%;
+  right: 19%;
+}
+
+.circle-S-4 {
+  top: 30%;
+  right: -1%;
+}
+
+.circle-B-1 {
+  top: 39%;
+  left: 42%;
+}
+
+.circle-B-2 {
+  bottom: 11%;
+  left: 45%;
+}
+
+.circle-B-3 {
+  bottom: 40%;
+  right: -12.5%;
+}
+
 .text {
   float: left;
   width: 30%;
