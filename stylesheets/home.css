@@ -1,0 +1,48 @@
+.home {
+  background-image: url('../images/home/background room.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  padding-top: 10px;
+}
+  
+
+.home .container {
+  overflow: hidden;
+}
+
+.knife {
+  float: left;
+  width: 40%;
+}
+  
+.knife img {
+  width: 125%;
+  height: auto;
+  margin-left: -11%;
+}
+  
+.text {
+  float: left;
+  width: 30%;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'BebasNeue';
+  text-align: center;
+}
+
+  
+.text div {
+    margin-bottom: 15px;
+}
+
+.left-text {
+  color: white;
+  margin-top: 60px;
+}
+  
+.right-text {
+  color: #B7332E;
+  margin-top: 145px;
+}

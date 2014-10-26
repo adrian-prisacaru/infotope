@@ -1,0 +1,21 @@
+.page-image img {
+    width: 100%;
+    height: auto;
+}
+
+.page-text {
+  font-size: 18px;
+  line-height: 1.5;
+  border-top: 3px solid rgb(190, 219, 0);
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.page-text p {
+    margin-top: 30px;
+}
+  
+.team-image {
+  float: left;
+  margin: 37px 15px 15px 0px;
+}

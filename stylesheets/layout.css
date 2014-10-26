@@ -1,0 +1,72 @@
+/* check cross-browser compatibilty */
+@font-face {
+  font-family: 'BebasNeue';
+  font-weight: bold;
+  src: url('../fonts/BebasNeue Bold.ttf');
+}
+  
+@font-face {
+  font-family: 'HelveticaCondensed';
+  font-weight: normal;
+  src: url('../fonts/Helvetica-Condensed.ttf');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'HelveticaCondensed';
+  height: 100%;
+}
+  
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin: 20px 0px 10px 0px;
+  font-family: 'BebasNeue';
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+
+/* header */
+.header-wrapper {
+  background-color: rgb(51, 51, 51);
+  height: 117px;
+}
+  
+.header-wrapper .container {
+    background-image: url('../images/home/logo.png');
+    background-repeat: no-repeat;
+    background-position: 0px, 10px;
+    height: 100%;
+}
+    
+.header-item {
+  float: right;
+  font-size: 20px;
+  margin-left: 3.5%;
+  padding-top: 53px;
+}
+    
+.header-wrapper a {
+    color: rgb(206, 207, 210);
+    text-decoration: none;
+}
+    
+.header-wrapper .active a {
+    color: rgb(190, 219, 0);
+}
+
+
+/* footer */
+.footer {
+  background-color: rgb(51, 51, 51);
+  text-align: center;
+  color: rgb(206, 207, 210);
+  padding: 20px 0px;
+}
