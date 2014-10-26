@@ -19,3 +19,67 @@
   float: left;
   margin: 37px 15px 15px 0px;
 }
+
+.contact-box {
+  border-top: 3px solid rgb(190, 219, 0);
+  clear: both;
+}
+
+.country-name {
+  width: 20%;
+  margin-left: 15%;
+  float: left;
+  font-family: 'BebasNeue';
+  font-size: 30px;
+  text-align: center;
+  padding-top: 54px;
+}
+
+.contact-info {
+  width: 65%;
+  float: left;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.contact-info-section {
+  margin: 5px 0px;
+  clear: both;
+}
+
+.contact-icon {
+  float: left;
+  margin: 5px 0px;
+}
+
+.mail-icon {
+  float: left;
+  margin: 13px 0px 5px -4px;
+}
+
+.contact-info .text {
+  float: left;
+  margin: 5px 0px 0px 15px;
+}
+
+.contact-info .mail-text {
+  float: left;
+  margin: 5px 0px 0px 10px;
+}
+
+.url-box {
+  border-top: 3px solid rgb(190, 219, 0);
+  clear: both;
+  text-align: center;
+  font-size: 19px;
+  padding-top: 3px;
+}
+
+.logos {
+  width: 340px;
+  margin: auto;
+}
+
+.logos img {
+  margin: 25px 25px;
+}
