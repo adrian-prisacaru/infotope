@@ -42,6 +42,7 @@ h1 {
   
 .header .container {
     background-image: url('../images/home/logo.png');
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0px, 10px;
     height: 100%;
@@ -74,4 +75,48 @@ h1 {
 
 .footer .text {
   padding-top: 20px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+  
+  .header {
+    height: 95px;
+  }
+  
+  .header-item {
+    padding-top: 39px;
+  }
+}
+
+@media (max-width: 979px) {
+  .container {
+    width: 760px;
+  }
+  
+  .header {
+    height: 76px;
+  }
+  
+  .header-item {
+    margin-left: 2.5%;
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 779px) {
+  .container {
+    width: 560px;
+  }
+  
+  .header {
+    height: 56px;
+  }
+  
+  .header-item {
+    font-size: 18px;
+    padding-top: 15px;
+  }
 }

@@ -83,3 +83,13 @@
 .logos img {
   margin: 25px 25px;
 }
+
+@media (max-width: 779px) {
+  .contact-info {
+    font-size: 18px;
+  }
+  
+  .url-box {
+    font-size: 17px;
+  }
+}
