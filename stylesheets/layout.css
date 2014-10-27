@@ -4,7 +4,7 @@
   src: url('../fonts/BebasNeue Bold.ttf')  format('truetype'),
         url('../fonts/BebasNeue Bold.eot?#iefix') format('embedded-opentype');
 }
-  
+
 @font-face {
   font-family: 'HelveticaCondensed';
   font-weight: normal;
@@ -19,9 +19,8 @@ html {
 body {
   font-family: 'HelveticaCondensed';
   height: 100%;
-  overflow: hidden;
 }
-  
+
 h1 {
   text-align: center;
   font-size: 45px;
@@ -40,7 +39,7 @@ h1 {
   background-color: rgb(51, 51, 51);
   height: 117px;
 }
-  
+
 .header .container {
     background-image: url('../images/home/logo.png');
     background-size: 100%;
@@ -48,19 +47,19 @@ h1 {
     background-position: 0px, 10px;
     height: 100%;
 }
-    
+
 .header-item {
   float: right;
   font-size: 20px;
   margin-left: 3.5%;
   padding-top: 53px;
 }
-    
+
 .header a {
     color: rgb(206, 207, 210);
     text-decoration: none;
 }
-    
+
 .header .active a {
     color: rgb(190, 219, 0);
 }
@@ -82,11 +81,11 @@ h1 {
   .container {
     width: 960px;
   }
-  
+
   .header {
     height: 95px;
   }
-  
+
   .header-item {
     padding-top: 39px;
   }
@@ -96,11 +95,11 @@ h1 {
   .container {
     width: 760px;
   }
-  
+
   .header {
     height: 76px;
   }
-  
+
   .header-item {
     margin-left: 2.5%;
     padding-top: 25px;
@@ -111,11 +110,11 @@ h1 {
   .container {
     width: 560px;
   }
-  
+
   .header {
     height: 56px;
   }
-  
+
   .header-item {
     font-size: 18px;
     padding-top: 15px;
