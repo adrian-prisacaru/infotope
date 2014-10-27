@@ -213,11 +213,9 @@
   
   .bubble-C-4 {
     top: -2%;
-    left: 92%;
   }
   
   .bubble-C-5 {
-    bottom: 49%;
     right: -73%;
   }
   
@@ -227,7 +225,6 @@
   }
   
   .bubble-S-2 {
-    bottom: 17%;
     right: -30%;
   }
   
@@ -237,7 +234,6 @@
   }
   
   .bubble-S-4 {
-    top: 33%;
     right: 4.5%;
   }
   
@@ -247,7 +243,6 @@
   }
   
   .bubble-B-2 {
-    bottom: 13.5%;
     right: 52%;
   }
   
@@ -280,7 +275,6 @@
   }
   
   .bubble-C-3 {
-    top: 1%;
     left: 61%;
     width: 234.6px;
   }
@@ -290,26 +284,22 @@
   }
   
   .bubble-C-5 {
-    bottom: 49%;
     right: -69%;
     width: 228px;
   }
   
   .bubble-S-1 {
-    top: 43%;
     left: -63.5%;
     width: 231px;
   }
   
   .bubble-S-2 {
-    bottom: 17%;
     right: -27%;
     width: 179.4px;
   }
   
   .bubble-S-3 {
     top: 12%;
-    right: 25.5%;
     width: 147px;
   }
   
@@ -329,7 +319,6 @@
   
   .bubble-B-3 {
     bottom: 25.5%;
-    right: -5.5%;
     width: 187.2px;
   }
 }
@@ -361,7 +350,6 @@
   
   .bubble-C-3 {
     top: 3%;
-    left: 61%;
     width: 156.4px;
   }
   
@@ -371,26 +359,22 @@
   }
   
   .bubble-C-5 {
-    bottom: 49%;
     right: -62%;
     width: 152px;
   }
   
   .bubble-S-1 {
-    top: 43%;
     left: -56%;
     width: 154px;
   }
   
   .bubble-S-2 {
-    bottom: 17%;
     right: -21%;
     width: 119.6px;
   }
   
   .bubble-S-3 {
     top: 13%;
-    right: 25.5%;
     width: 98px;
   }
   
@@ -412,7 +396,6 @@
   
   .bubble-B-3 {
     bottom: 27.5%;
-    right: -5.5%;
     width: 124.8px;
   }
 }
