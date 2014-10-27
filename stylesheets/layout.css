@@ -1,14 +1,15 @@
-/* check cross-browser compatibilty */
 @font-face {
   font-family: 'BebasNeue';
   font-weight: bold;
-  src: url('../fonts/BebasNeue Bold.ttf');
+  src: url('../fonts/BebasNeue Bold.ttf')  format('truetype'),
+        url('../fonts/BebasNeue Bold.eot?#iefix') format('embedded-opentype');
 }
   
 @font-face {
   font-family: 'HelveticaCondensed';
   font-weight: normal;
-  src: url('../fonts/Helvetica-Condensed.ttf');
+  src: url('../fonts/Helvetica-Condensed.ttf')  format('truetype'),
+        url('../fonts/Helvetica-Condensed.eot?#iefix')  format('embedded-opentype');
 }
 
 html {
