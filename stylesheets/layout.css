@@ -1,15 +1,17 @@
 @font-face {
   font-family: 'BebasNeue';
   font-weight: bold;
-  src: url('../fonts/BebasNeue Bold.ttf')  format('truetype'),
-        url('../fonts/BebasNeue Bold.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/BebasNeue-Bold.eot?#iefix');
+  src: url('../fonts/BebasNeue-Bold.eot?#iefix')  format('embedded-opentype'),
+        url('../fonts/BebasNeue-Bold.ttf')  format('truetype');
 }
 
 @font-face {
   font-family: 'HelveticaCondensed';
   font-weight: normal;
-  src: url('../fonts/Helvetica-Condensed.ttf')  format('truetype'),
-        url('../fonts/Helvetica-Condensed.eot?#iefix')  format('embedded-opentype');
+  src: url('../fonts/helvetica-condensed-webfont.eot?#iefix');
+  src: url('../fonts/helvetica-condensed-webfont.eot?#iefix')  format('embedded-opentype'),
+        url('../fonts/Helvetica-Condensed.ttf')  format('truetype');
 }
 
 html {
@@ -19,6 +21,7 @@ html {
 body {
   font-family: 'HelveticaCondensed';
   height: 100%;
+  min-width: 560px;
 }
 
 h1 {
